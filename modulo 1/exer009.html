@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos com CSS</title>
+    <link rel="stylesheet" href="exer009.css">
+    <style>
+        h1 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Um site muito estiloso!</h1>
+    <p>Estamos usando CSS para fazer isso!</p>
+    <h2>CSS Inline</h2>
+    <p>Temos diferentes tipos de usos de CSS, o Inline é usado em casos específicos quando você quer uma cor especial para determinado texto</p>
+    <p style="color: rgb(98, 0, 255);">Esse parágrafo está com cor diferente dos demais</p>
+    <p>Ela é usada diretamente na própria tag de HTML com o atributo style, por essa mesma razão, que ele não é recomendado.</p>
+    <h2>CSS Interno</h2>
+    <p>Esse é usado com a tag <strong>style</strong> no <strong>head</strong> da estrutura, normalmente usado para pequenas configurações. Neste caso, está deixando os títulos verdes</p>
+    <h2>CSS Externo</h2>
+    <p>Como o nome sugere, o CSS Externo usa arquivos de fora, com a tag <strong>link:css</strong> no <strong>header</strong>, fará a lincagem com um arquivo CSS (o próprio VSC pode criar o arquivo para você). Ele está fazendo toda a estrutura CSS desse site, então assim, o CSS Externo é usado para configurações complexas para deixar o código mais organizado, além de que o mesmo arquivo css pode ser usado para diversas páginas, facilitando as mudanças do site</p>
+    <p>Observação: Por precaução, colocar na primeira linha do arquivo CSS: "@charset "UTF-8";" para compatibilidade com o arquivo HTML</p>
+</body>
+</html>

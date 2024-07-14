@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark {
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body bgcolor="yellow">
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica).</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica).</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
+    <p>Também podemos usar a tag semântica address <address>Ela é usada para mostrar endereço, por isso pula a linha</address></p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK.</p>
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final.</p> <p>A gente define a cor dessa marcação com css ou em um arquivo próprio de css ou na tag style no próprio html </p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> (Tag big, não-semântica) e um <small>texto pequeno</small> nesse parágrafo. (Tag small, semântica)</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado. Tag del, semântica</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois. Usamos a tag ins que é semântica.</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3, Tag sup semântica</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O, Tag sub semântica</p>
+    <h2>Códigos</h2>
+    <p>Usamos o code para mostrar códigos em seu site</p>
+    <pre><code>
+        x = 2
+        if x == 2:
+            print('O número é 2')
+        else:
+            print('O número não é 2')
+    </code></pre>
+    <p>Usamos outra tag, o pre para formatar o código e mostrar do jeito que foi digitado.</p>
+    <h2>Citações</h2>
+    <p>Para mostrar citações, usamos o <q>A tag q, que vai colocar automaticamente as aspas</q>, mais usada no meio de parágrafos</p>
+    <p>Para citações longas usamos mais o blockquote, por ter recuo e também podemos colocar o link da citação original no parâmetro cite.</p>
+    <blockquote cite="https://www.pensador.com/autor/paulo_freire/">Eu sou um intelectual que não tem medo de ser amoroso. Amo as gentes e amo o mundo. E é porque amo as pessoas e amo o mundo que eu brigo para que a justiça social se implante antes da caridade.</blockquote>
+    <h2>Abreviações</h2>
+    <p>Com a tag abbr, podemos mostrar o significado de uma abreviação no parâmetro title <br>Eu amo estudar <abbr title="JavaScript"> JS</abbr></p>
+    <h2><bdo dir="rtl">Textos Invertidos!</bdo></h2>
+    <p>Para inverter textos que nem neste titulo usamos a tag bdo, para tomar forma, temos que definir o parâmetro dir. Temos duas dir. <br>
+        RTL: Direita para esquerda (right-to-left) <br>
+        LTR: Esquerda para direita (left-to-right) <br>
+    Assim definimos como o texto vai se comportar
+    </p>
+</body>
+</html>

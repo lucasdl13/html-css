@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Abra esse site em diferentes dispositivos ou aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens-etc/P.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens-etc/M.png" type="image/png">
+        <img src="imagens-etc/G.png" alt="Imagem Grande">
+    </picture>
+    <p>Com a tag <strong>source media type</strong>, podemos mudar a imagem conforme o tamanho do dispositivo ou navegador</p>
+    <h1>Reproduzindo áudios</h1>
+    <p>Com a tag <strong>audio</strong> colocamos o áudio no site, informamos o diretório do áudio com o parâmetro <strong>src</strong></p>
+    <audio src="imagens-etc/dreamyguitar.mp3" controls></audio>
+    <p>Podemos colocar o atributo <strong>controls</strong>, para poder tocar, parar, mutar etc (basicamente, controlar como o nome sugere). Também há o atributo <strong>autoplay</strong> para tocar automaticamente e o <strong>loop</strong> para loopar o áudio</p>
+    <p>Podemos aumentar os formatos de áudio conforme a compatibilidade do usuário com o <strong>source src</strong>, parecido com as imagens anteriores</p>
+    <img src="imagens-etc/audio.png" alt="Audio">
+    <h1>Vídeos em HTML</h1>
+    <p>Para mostrar vídeos em um site, usamos a tag <strong>video</strong></p>
+    <video width="600" controls>
+        <source src="imagens-etc/WhatsApp Video 2023-04-04 at 20.56.19.mp4" type="video/mp4">
+    </video>
+    <p><strong>width</strong> indica a largua do vídeob</p>
+    <p><strong>poster</strong> vai configurar a "thumbnail" do vídeo</p>
+    <p><strong>controls</strong> assim como o do áudio, para configurar o video exibido no próprio site.</p>
+    <p><strong>autoplay</strong> para configurar se vai tocar automaticamente</p>
+    <h1>Videos do youtube</h1>
+    <p>Indo no compartilhar de qualquer vídeo do youtube, copiamos o código presente no botão incorporar e então podemos colocar o vídeo no site, colando-o.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DjOSM72cYac?si=iuDDgdTDlVNVMizp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

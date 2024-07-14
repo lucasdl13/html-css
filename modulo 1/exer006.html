@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="desafios/favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Listas Ordenadas, Não Ordenadas e etc...</h1>
+    <h2>Listas Ordenadas</h2>
+    <p>As ordered lists, ou listas ordenadas, são listas onde a ordem é algo importante, para criá-la, usamos a tag <strong>ol</strong> marcar a lista e a tag <strong>li</strong> para os itens. Veja a seguir</p>
+    <ol><li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li></ol>
+    <p>A tag <strong>ol</strong> tem parâmetro <strong>type</strong> onde configuramos o tipo de marcador de cada item, ou seja, o 1.; 2.; 3. que vimos na lista anterior. Veja as opções de valores para esse parâmetro</p>
+    <img src="imagens-etc/lista.png" alt="Lista tipos">
+    <p>Também há o parâmetro <strong>start</strong>, para indicar o inicio desses marcadores. a tag &lt;ol type="i" start= "5"&gt; fará isso:</p>
+    <ol type="i" start= "5"><li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li></ol>
+    <p>Começou do 5 e foi assim por diante.</p>
+    <h2>Listas Não ordenadas</h2>
+    <p>As listas não ordenadas, como o nome diz, é em que a ordem não importa. Usamos a tag <strong>ul</strong> para ela</p>
+    <ul><li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li></ul>
+    <p>Vimos que nessa lista, não temos ordem, apenas essas bolinhas. Podemos alterar com o parâmetro <strong>ul</strong>, que volta nesse tipo de lista. A seguir alguns valores para o type</p>
+    <img src="imagens-etc/listasnaoordenadas.png" alt="Listas não ordenadas">
+    <h2>Listas Mistas</h2>
+    <p>Podemos criar listas, dentro de outras listas, veja o exemplo a seguir:</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ol type="A">
+            <li>Item 2.1 
+            <li>Item 2.2</li></ol>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        </ol>
+    <h2>Lista de definições</h2>
+    <p>Como se fosse um dicionário, esse tipo de lista tem os itens e descrições dela. Usamos a tag <strong>dl</strong> para marcar a lista, <strong>dt</strong> para os itens, <strong>dd</strong> para a descrição</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para o conteúdo dos sites</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para o design dos sites</dd>
+        <dt>JS</dt>
+        <dd>Linguagem de programação para a interativdade dos sites</dd>
+    </dl>
+</body>
+</html>
