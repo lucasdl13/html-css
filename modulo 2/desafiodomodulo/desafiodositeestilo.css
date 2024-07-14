@@ -94,6 +94,7 @@ main{
 }
 header > p{
     margin: 20px;
+    margin-bottom: 10px;
 }
 main img{
     width: 100%;
