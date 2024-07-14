@@ -43,7 +43,7 @@ shorthand margin ordem: (caso coloque um único valor, esse mesmo valor é aplic
             margin-right: 10px;
             margin-bottom: 20px;
             margin-left: 30px;
-            (também há a opção de usar no padding apenas dois valores, um para margin-top e bottom, o segundo para margin-left e right)
+            (também há a opção de usar no margin apenas dois valores, um para margin-top e bottom, o segundo para margin-left e right)
             (também há a margem automática, com o margin: auto;)
 
 Medidas Absolutas
