@@ -55,4 +55,11 @@ Medidas Absolutas
     Recomendado usar: px, em. pt apenas para conteúdos impressos
 
 O id de HTML, em CSS é # (só um elemento)
-  A class de HTML, em CSS é . (mais de um elemento)           
+  A class de HTML, em CSS é . (mais de um elemento)       
+
+  HIERARQUIA DE TABELAS
+         
+        TABLES = Tabelas
+            TABLE ROW = Linha de tabela
+                TABLE HEADER = Cabeçalho de tabela
+                TABLE DATA = Dados de tabela 
