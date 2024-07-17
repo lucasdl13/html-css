@@ -8,9 +8,16 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
+        p {
+            font-size: 2em;
+        }
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: rgba(128, 128, 128, 0.404);
         }
         th, td{
             padding: 10px;
@@ -18,10 +25,18 @@
             vertical-align: middle;
         }
         thead {
-            background-color: rgba(128, 128, 128, 0.404);
+            background-color: rgb(128, 128, 128);
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: rgb(128, 128, 128);
         }
         td.num {
             text-align: right;
+        }
+        caption {
+            padding: 10px;
         }
     </STYLe>
 </head>
@@ -56,16 +71,18 @@
     <!-- HIERARQUIA DE TABELAS GRANDES
      
     TABLE
+        CAPTION
         THEAD - TD, TR, TH
         TBODY - TD, TR, TH
         TFOOT - TD, TR, TH-->
         <table>
+            <caption>População das Unidades Federativas</caption>
             <thead>
                 <tr>
-                    <th>
+                    <th scope="col">
                         Estado
                     </th>
-                    <th>
+                    <th scope="col" style="width: 50px;">
                         População
                     </th>
                 </tr>
@@ -87,13 +104,46 @@
                         21 168 791
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        Rio de Janeiro
+                    </td>
+                    <td class="num">
+                        16.054.524
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Bahia 
+                    </td>
+                    <td class="num">
+                        14.136.417
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Paraná 
+                    </td>
+                    <td class="num">
+                        11.443.208
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Rio Grande do Sul
+                    </td>
+                    <td class="num">
+                        10.880.506 
+                    </td>
+                </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <th>Total de Habitantes</th>
+                    <th scope="row">Total de Habitantes</th>
                     <td class="num">67 187 140</td>
                 </tr>
             </tfoot>
         </table>
-</body>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam consequatur necessitatibus obcaecati atque architecto saepe doloribus maiores sunt, facere id veniam soluta, dignissimos quam? Eligendi corporis deserunt totam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, sequi illo cumque consequuntur necessitatibus ratione! Atque magni obcaecati odio repellat, tempore fugit voluptatibus! Iste, et illo eos mollitia aperiam sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat expedita, consectetur fuga aliquam eveniet quisquam voluptates soluta qui unde animi eum recusandae minima earum iusto provident aut repellendus sunt? Ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto veniam cumque omnis blanditiis voluptatum quaerat delectus quo possimus similique ratione ex quos ipsa doloremque quibusdam, in ad, amet culpa magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. A excepturi iste quidem molestias, maiores eos repellat quam consequatur voluptatum cum iure perspiciatis, veritatis nostrum odit eum sed! Vel, illo doloremque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, et maiores illum fugiat non voluptate quos hic nisi, repellat debitis repellendus sint esse facilis cupiditate aperiam dolor accusamus! Enim, nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quae facilis ut suscipit reiciendis ipsa delectus, quis molestiae dignissimos similique distinctio in nostrum nesciunt sunt autem exercitationem expedita sint iure.</p>
+    </body>
 </html>
