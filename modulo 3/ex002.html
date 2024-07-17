@@ -9,18 +9,25 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table {
-            width: 50vw;
+            width: 500px;
             border-collapse: collapse;
         }
-        td{
+        th, td{
             padding: 10px;
             border: 1px solid black;
             vertical-align: middle;
         }
+        thead {
+            background-color: rgba(128, 128, 128, 0.404);
+        }
+        td.num {
+            text-align: right;
+        }
     </STYLe>
 </head>
 <body>
-    <h1>Minha primeira tabela</h1>
+    <h1>Exemplos de tabelas</h1>
+    <h2>Tabelas Normais</h2>
     <!-- HIERARQUIA DE TABELAS
          
         TABLE = Tabelas
@@ -45,6 +52,48 @@
             <td>C3</td>
         </tr>
     </table>
-    
+    <h2>Tabelas Grandes</h2>
+    <!-- HIERARQUIA DE TABELAS GRANDES
+     
+    TABLE
+        THEAD - TD, TR, TH
+        TBODY - TD, TR, TH
+        TFOOT - TD, TR, TH-->
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Estado
+                    </th>
+                    <th>
+                        População
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        São Paulo
+                    </td>
+                    <td class="num">
+                        45 919 049
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Minas Gerais
+                    </td>
+                    <td class="num">
+                        21 168 791
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total de Habitantes</th>
+                    <td class="num">67 187 140</td>
+                </tr>
+            </tfoot>
+        </table>
 </body>
 </html>

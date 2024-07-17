@@ -63,3 +63,9 @@ O id de HTML, em CSS é # (só um elemento)
             TABLE ROW = Linha de tabela
                 TABLE HEADER = Cabeçalho de tabela
                 TABLE DATA = Dados de tabela 
+HIERARQUIA DE TABELAS GRANDES
+     
+    TABLE
+        THEAD - TD, TR, TH
+        TBODY - TD, TR, TH
+        TFOOT - TD, TR, TH
