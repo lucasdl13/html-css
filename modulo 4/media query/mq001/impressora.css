@@ -1,0 +1,15 @@
+@charset "UTF-8";
+* {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 10px;
+}
+menu {
+    display: none;
+}
+article::after{
+    content: 'Esse artigo foi impresso do site www.luquinhas.com.br';
+}
+article{
+    width: 100%;
+}
