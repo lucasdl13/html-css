@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="cliquei()">
+            menu
+            </span>
+        <menu id="menu">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -27,5 +31,14 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto harum fugiat hic quia optio maxime sapiente saepe esse laudantium exercitationem magni nemo alias veniam repellendus, fuga ea itaque? Ipsam, consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem commodi cupiditate, optio, tenetur molestiae pariatur enim dolores nostrum incidunt tempora nisi, eligendi vel voluptatum voluptate corporis accusantium et labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae reiciendis voluptates debitis iure totam molestiae vel voluptate incidunt! Vitae saepe recusandae labore molestias nihil, magnam sit sapiente hic animi harum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus placeat nam obcaecati eos commodi, illo tempora quas nostrum perspiciatis est dolor nihil voluptas vero nulla aliquid repellendus aliquam culpa! Ad?</p>
         </article>
     </main>
+    <script>
+        function cliquei(){
+            if (menu.style.display == 'block'){
+                menu.style.display = 'none'
+            } else{
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
