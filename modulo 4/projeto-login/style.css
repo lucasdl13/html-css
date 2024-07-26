@@ -27,6 +27,9 @@ section{
     background-color: white;
     overflow: hidden;
     box-shadow: 1px 1px 10px black;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 h1 {
     text-align: center;
