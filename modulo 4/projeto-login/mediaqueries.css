@@ -26,12 +26,18 @@
         width: 990px;
     }
     div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    h1 {
+        font-size: 1.6em;
     }
 }

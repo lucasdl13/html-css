@@ -45,3 +45,12 @@ div#formulario{
     display: block;
     padding: 10px;
 }
+div.campo {
+    background-color: #5f2c82;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+span{
+    color: white;
+}
