@@ -77,3 +77,6 @@ Celular: de 600px até 768px
 Tablet: 768px até 992px
 Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
+
+shorthand flex-flow:
+    flow-direction + flow-wrap

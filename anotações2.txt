@@ -1,0 +1,5 @@
+(Flexbox):
+Configurações do container:
+FLEX-DIRECTION: Define a direção da caixa, para as configurações de linha, row e row-reverse. Para coluna, column e column-reverse. Os com reverse são apenas para inverter a ordem
+IMPORTANTE: Ver as imagens sobre os eixos do container na pasta imagens-importantes 
+FLEX-WRAP: Faz com que os itens que adaptem para caber no container. O item quebra sempre no eixo transvessal
