@@ -2,4 +2,17 @@
 Configurações do container:
 FLEX-DIRECTION: Define a direção da caixa, para as configurações de linha, row e row-reverse. Para coluna, column e column-reverse. Os com reverse são apenas para inverter a ordem
 IMPORTANTE: Ver as imagens sobre os eixos do container na pasta imagens-importantes 
-FLEX-WRAP: Faz com que os itens que adaptem para caber no container. O item quebra sempre no eixo transvessal
+FLEX-WRAP: Faz com que os itens se adaptem para caber no container. O item quebra sempre no eixo transvessal
+JUSTIFY-CONTENT: ajusta os itens ao eixo principal conforme o valor colocado. A seguir os valores:
+    flex-start: vai alinhar ao main-start
+    flex-end: vai alinhar ao main-end
+    center: vai alinhar ao centro
+    space-between: coloca o primeiro elemento no main-start e o último no main-end. Todos os outros estarão alinhados igualmente centralizados
+    space-evenly: todos os elementos terão o mesmo espaço entre si 
+    space-around: o container vai se dividir entre o número de elementos e os itens serão centralizados nelas
+    IMPORTANTE: ver as diferenças dos spaces nas imagens-importantes
+ALIGN-ITEMS: Ajusta os itens conforme o eixo transversal com valores especificos, a seguir esses valores:
+    stretch: estica o tamanho dos itens conforme o tamanho do container
+    flex-start: vai alinhar ao cross-start (o começo)
+    flex-end: vai alinhar ao cross-end (o fim)
+    center: vai centralizar os itens
