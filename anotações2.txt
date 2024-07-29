@@ -24,3 +24,6 @@ ALIGN-CONTENT: alinha os itens no eixo transversal quando estão empacotados (no
     space-between: vai grudar os itens no cross-start e cross-end
     space-evenly: coloca espaços iguais entre os itens
     space-around: faz a mesma coisa de dividir o eixo transversal em partes iguais porém colocando os itens nessas partes de forma centralizada.
+Configurações dos itens:
+ORDER: Ordenamos os itens com números, os menores números definirão os primeiros a serem exibidos e os maiores definirão os últimos. Caso houver dois ou mais itens com o mesmo número de order, a ordem será feita pelo item que foi colocado primeiro no html (o número normal do order é 0) (Ver ex005.html para entender melhor)
+ALIGN-SELF: Alinha os itens no eixo transversal, temos o valor auto que usa o alinhamento do container (align-content ou align-items). O resto também temos flex-start (cola no cross-start), flex-end (cola no cross-end), center (centraliza), stretch (estica) que já sabemos como funciona.

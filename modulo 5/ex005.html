@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordem de itens</title>
+    <style>
+        div.container{
+            background-color: rgb(190, 128, 240);
+            display: flex;
+            padding: 10px;
+            border-radius: 5px;
+            flex-flow: row wrap;
+            height: 400px;
+            align-items: flex-end;
+        }
+        div.item {
+            background-color: rgb(250, 255, 208);
+            border: 1px solid black;
+            text-align: center;
+            padding: 40px;
+        }
+        div#li1{
+            order: 6;
+            align-self: stretch;
+        }
+        div#li2{
+            order: -2;
+            align-self: auto;
+        }
+        div#li3{
+            order: 4;
+        }
+        div#li4{
+            order: -2;
+            align-self: flex-start;
+        }
+        div#li5{
+            order: 4;
+        }
+        div#li6{
+            order: 2;
+            align-self: center;
+        }
+        div#li7{
+            order: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="li1">A</div>
+        <div class="item" id="li2">B</div>
+        <div class="item" id="li3">C</div>
+        <div class="item" id="li4">D</div>
+        <div class="item" id="li5">E</div>
+        <div class="item" id="li6">F</div>
+        <div class="item" id="li7">G</div>
+    </div>
+</body>
+</html>
